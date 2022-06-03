@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Home from "./pages/Home";
+import Docentes from "./pages/Docentes/Docentes"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import './App.css'
 
@@ -9,9 +9,15 @@ function App() {
     <div className="App">
       <p>olaaaaa</p>
       <BrowserRouter>
-        <Link to="/home">Home</Link>
-        <Routes>       
-          <Route path="/home" element={<Home />} />
+        { //<Link to="/home">Home</Link>
+        }
+       <Link to="/docentes">Docentes</Link>
+       
+        <Routes>      
+         { //<Route path="/home" element={<Home />} />
+          } 
+         <Route path="/docentes" element={<Docentes />} />
+        
         </Routes>
       </BrowserRouter>
     </div>

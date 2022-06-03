@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Docentes from "./pages/Docentes/Docentes"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import './App.css'
+import Contato from './pages/Contato/Contato';
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
          { //<Route path="/home" element={<Home />} />
           } 
          <Route path="/docentes" element={<Docentes />} />
-        
+         <Route path="/contato" element={<Contato />} />
         </Routes>
       </BrowserRouter>
     </div>

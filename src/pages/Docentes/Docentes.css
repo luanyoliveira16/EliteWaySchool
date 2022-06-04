@@ -15,9 +15,17 @@
   place-items: center;
 }
 
-.div-icon{
+.icon-add{
   height: auto;
   margin-top: 10%;
+}
+
+.icones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-top: 5%;
 }
 
 @media only screen and (max-width: 1300px) {

@@ -1,34 +1,34 @@
 .lista-docentes{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .cards{
-    width: 70vw;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
 }
 
-.add-icon svg{
-    font-size: 70px;
+.div-icon{
+  height: auto;
+  margin-top: 10%;
 }
-
 
 @media only screen and (max-width: 1300px) {
-    .cards {
-      grid-template-columns: 1fr 1fr;
-    }
+  .cards {
+   grid-template-columns: 1fr 1fr;
   }
+}
   
-  @media only screen and (max-width: 800px) {
-    .cards {
-      grid-template-columns: 1fr;
-    }
+@media only screen and (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
   }
+}
   

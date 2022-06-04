@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import DocentesCard from "../../components/DocentesCard/DocentesCard";
 import "./Docentes.css"
 import Button from "../../components/Button/Button";
+import {Link} from "react-router-dom";
 
 function Docentes() {
     const [docentes, setDocentes] = useState([]);
@@ -49,7 +50,12 @@ function Docentes() {
                             {docentes.map((docente) => {
                                 return <DocentesCard key={docente.nome} docente={docente} />;
                             })}
-                            <IoIosAddCircle size={70} className="add-icon" />
+                            <div className="div-icon">
+                                <Link to= "/cadastro">
+                                    <IoIosAddCircle size={70} color={"red"}  />
+                                </Link>
+                            </div>
+
                         </div>
                     </div>) : (
                         <div className="empty">

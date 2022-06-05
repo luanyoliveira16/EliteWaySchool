@@ -1,5 +1,9 @@
 import { useState } from 'react'
+import Home from "./pages/Home/Home"
 import Docentes from "./pages/Docentes/Docentes"
+import Cadastro from "./pages/Cadastro/Cadastro"
+import Atualizar from "./pages/Atualizar/Atualizar"
+import Deletar from "./pages/Deletar/Deletar"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import './App.css'
 import Cadastro from './pages/cadastro/Cadastro';
@@ -17,9 +21,13 @@ function App() {
         <Routes>      
          { //<Route path="/home" element={<Home />} />
           } 
-         <Route path="/docentes" element={<Docentes />} />
-         <Route path="/cadastro" element={<Cadastro />} />
-        
+
+          <Route path="/" element={<Home />} />
+          <Route path="/docentes" element={<Docentes />} />
+          <Route path="/cadastro" element={<Cadastro />} />
+          <Route path="/atualizar" element={<Atualizar />} />
+          <Route path="/deletar" element={<Deletar />} />
+
         </Routes>
       </BrowserRouter>
     </div>

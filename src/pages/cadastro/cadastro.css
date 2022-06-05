@@ -1,0 +1,53 @@
+/* -----button css------ */
+
+.buttonForm{
+    background-color: #890d0d; 
+    border: none;
+    border-radius: 10px;
+    width: 350px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+ }
+ 
+ .buttonForm:hover{
+     background-color: #D40404; 
+     cursor: pointer;
+ }
+ 
+ 
+ .divButton{
+     display: flex;
+     justify-content: center;
+     margin-bottom: 20px;
+     margin-top: 10px;
+ }
+ 
+ /* ----------- form --------- */
+
+ .formCadastro {
+     width: 400px;
+     height: auto;
+     border-radius: 10px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-image: radial-gradient(circle, #cce7fd, #9ec3e5, #719fcd, #457cb5, #035a9d);
+    box-shadow: 7px 7px 12px 1px rgba(0, 0, 0, 0.55);
+ }
+
+
+
+ /* -------brasao img ---------- */
+ .imgBrasao{
+    padding: 30px;
+    width: 180px;
+ }
+
+ .divIcon{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }

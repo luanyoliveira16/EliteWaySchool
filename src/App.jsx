@@ -6,6 +6,7 @@ import Atualizar from "./pages/Atualizar/Atualizar"
 import Deletar from "./pages/Deletar/Deletar"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import './App.css'
+import Cadastro from './pages/cadastro/Cadastro';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Routes>      
          { //<Route path="/home" element={<Home />} />
           } 
+
           <Route path="/" element={<Home />} />
           <Route path="/docentes" element={<Docentes />} />
           <Route path="/cadastro" element={<Cadastro />} />

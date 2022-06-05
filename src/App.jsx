@@ -6,7 +6,6 @@ import Atualizar from "./pages/Atualizar/Atualizar"
 import Deletar from "./pages/Deletar/Deletar"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import './App.css'
-import Cadastro from './pages/cadastro/Cadastro';
 
 function App() {
 

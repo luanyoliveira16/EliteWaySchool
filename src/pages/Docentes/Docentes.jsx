@@ -74,7 +74,7 @@ function Docentes() {
 
       <div className="icones">
         <Link to="/cadastro">
-          <IoIosAddCircle size={70} color={"red"} />
+          <IoIosAddCircle size={50} color={"red"} />
         </Link>
         <Link to="/atualizar">
           <IoMdBrush size={50} color={"red"} />

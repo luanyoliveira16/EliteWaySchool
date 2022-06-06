@@ -37,7 +37,7 @@ function Atualizar() {
 
       <div className="divIcon">
         <img className='imgBrasao' src={brasao} alt="" />
-        <h3 className="titleFormDocente">CADASTRO DE DOCENTES</h3>
+        <h3 className="titleFormDocente">ATUALIZAÇÃO DE DOCENTE</h3>
       </div>
 
       <div className='divImputCadastro'>

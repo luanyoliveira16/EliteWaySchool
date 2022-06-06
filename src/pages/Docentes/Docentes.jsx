@@ -7,6 +7,7 @@ import { IoMdBrush } from "react-icons/io";
 import { Link } from "react-router-dom";
 import DocentesCard from "../../components/DocentesCard/DocentesCard";
 import Button from "../../components/Button/Button";
+import {Imput} from "../../components/imput/Imput"
 
 function Docentes() {
   const [docentes, setDocentes] = useState([]);
@@ -42,13 +43,13 @@ function Docentes() {
 
   return (
     <div className="docentes">
-      <h1>pagina docentes</h1>
       <div className="busca">
-        <input
+        <h1>pagina docentes</h1>
+        <Imput
+          textLabel = "Digite o cpf do docente que deseja buscar"
           type="text"
-          placeholder="Digite o cpf do docente"
+          placeholder="Digite o cpf..."
           value={cpf}
-          className="campo-de-busca"
           onChange={(e) => {
             setCpf(e.target.value);
           }}

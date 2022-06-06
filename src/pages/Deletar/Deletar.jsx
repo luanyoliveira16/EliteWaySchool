@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import Button from "../../components/Button/Button";
+import {Imput} from "../../components/imput/Imput"
 import "./Deletar.css"
 
 function Deletar() {
@@ -20,16 +21,17 @@ function Deletar() {
 
   return (
     <div>
-    <form>
-      <label htmlFor="cpf">Digite o cpf do docente que deseja deletar:</label>
-      <br />
-      <input
-        type="text"
-        placeholder="Digite o cpf do docente"
-        className="campo-de-busca"
-        value={cpf}
-        onChange={(e) => setCpf(e.target.value)}
-      />
+    <form className="form-delete">
+
+      <Imput
+          textLabel = "Digite o cpf do docente que deseja deletar"
+          type="text"
+          placeholder="Digite o cpf..."
+          value={cpf}
+          onChange={(e) => {
+            setCpf(e.target.value);
+          }}
+        />
 
       <Button
         text="Deletar"

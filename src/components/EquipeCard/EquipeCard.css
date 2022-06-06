@@ -1,0 +1,33 @@
+.titulo{
+    color: white;
+}
+.link{
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 3px;
+    margin-bottom: 6px;
+}
+.link:hover{
+    color: rgb(247, 6, 6);
+    cursor: pointer;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.imagem {
+    width: 400px;
+}
+
+.name{
+    text-align: center;
+}
+.Card{
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color:#035A9D;
+    width: 400px;
+    box-shadow: 0px 1px 16px 10px rgba(136, 136, 136, 0.58);
+    margin: 7.5px 15px;
+    padding-bottom: 5px;
+}

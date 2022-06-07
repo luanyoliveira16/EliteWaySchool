@@ -8,6 +8,8 @@ import CarregamentoPag from './components/CarregamentoPag/CarregamentoPag'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import './App.css'
 import Contato from './pages/Contato/Contato';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -16,7 +18,7 @@ function App() {
       <div className="App">
         <BrowserRouter>
 
-          <Link to="/docentes">Docentes</Link>
+         <Navbar/>
 
           <Routes>
 
@@ -27,6 +29,9 @@ function App() {
             <Route path="/atualizar" element={<Atualizar />} />
             <Route path="/deletar" element={<Deletar />} />
           </Routes>
+       
+         <Footer/>
+
         </BrowserRouter>
       </div>
       }

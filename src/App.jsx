@@ -4,6 +4,7 @@ import Docentes from "./pages/Docentes/Docentes"
 import Cadastro from "./pages/Cadastro/Cadastro"
 import Atualizar from "./pages/Atualizar/Atualizar"
 import Deletar from "./pages/Deletar/Deletar"
+import CarregamentoPag from './components/CarregamentoPag/CarregamentoPag'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import './App.css'
 import Contato from './pages/Contato/Contato';
@@ -11,26 +12,25 @@ import Contato from './pages/Contato/Contato';
 function App() {
 
   return (
-    <div className="App">
-      <p>olaaaaa</p>
-      <BrowserRouter>
-        { //<Link to="/home">Home</Link>
-        }
-       <Link to="/docentes">Docentes</Link>
-       
-        <Routes>      
-         { //<Route path="/home" element={<Home />} />
-          } 
+    <CarregamentoPag component={
+      <div className="App">
+        <BrowserRouter>
 
-          <Route path="/" element={<Home />} />
-          <Route path="/contato" element={<Contato />} />
-          <Route path="/docentes" element={<Docentes />} />
-          <Route path="/cadastro" element={<Cadastro />} />
-          <Route path="/atualizar" element={<Atualizar />} />
-          <Route path="/deletar" element={<Deletar />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+          <Link to="/docentes">Docentes</Link>
+
+          <Routes>
+
+            <Route path="/" element={<Home />} />
+            <Route path="/contato" element={<Contato />} />
+            <Route path="/docentes" element={<Docentes />} />
+            <Route path="/cadastro" element={<Cadastro />} />
+            <Route path="/atualizar" element={<Atualizar />} />
+            <Route path="/deletar" element={<Deletar />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+      }
+    />
   )
 }
 

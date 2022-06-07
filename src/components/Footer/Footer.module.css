@@ -1,0 +1,71 @@
+.footer{
+          height:300px;
+          display:flex;
+          flex-direction:column;
+          background-color:#005EA2;
+          margin-top: -5px;
+}
+
+.unidades{
+          font-weight: bold;
+          font-size: 24px;
+          cursor: pointer;
+}
+
+.unidades:hover{
+          font-size: 26px;
+}
+
+.endereÃ§os{
+          display : flex;
+          flex-direction: row;
+          color: #ffffff;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: -30px;
+}
+
+.icons{
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 20px;
+}
+
+.botafogoBarra{
+          display : flex;
+          flex-direction: column;
+          margin-bottom: 25px;
+          margin: 40px;
+}
+
+.EWS{
+          color: #ffffff;
+          text-align: center;
+          font-weight: bold;
+          font-size: 36px;
+          font-family: Playfair;
+          cursor: pointer;
+}
+
+.EWS:hover{
+          color: red;
+}
+
+.separador{
+          color: #ffffff;
+          margin-right: auto;
+          margin-left: auto;
+}
+
+.copyright{
+          margin-top: -5px;
+          text-align: center;
+      }
+
+      @media (max-width: 1025px){
+
+        .footer{
+          height: 350px;
+        }
+     
+     }

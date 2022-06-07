@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import "../styles/Home.css";
+import Slider from "../../components/Slider/Slider"
+
 
 function Home() {
   return (
     <div >
-      <div >
+       <Slider/>
 
-      </div>
+
     </div>
   );
 }

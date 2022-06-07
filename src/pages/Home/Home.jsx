@@ -4,10 +4,9 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="home">
-      <div className="headerContainer">
-        <h1> Elite Way School </h1>
-        <p>Escola</p>
+    <div >
+      <div >
+
       </div>
     </div>
   );

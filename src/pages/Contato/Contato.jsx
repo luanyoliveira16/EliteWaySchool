@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contato.css";
-import hadoniasImage from "../../assets/image/hadonias.jpg";
+import hadoniasImage from "../../assets/image/Hadonias.jpg";
 import caiqueImage from "../../assets/image/92965546.jpg";
 import hadassaImage from "../../assets/image/hadassa.jpg";
 import luanyImage from "../../assets/image/luany.jpg";

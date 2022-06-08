@@ -92,7 +92,7 @@ function Atualizar() {
       </div>
 
       <div className="divButton">
-        <Button className="buttonForm" text="Cadastrar"
+        <Button className="buttonForm" text="Atualizar"
           onClick={(e) => {
             e.preventDefault();
             atualizaDocente(cpf)

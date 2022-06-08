@@ -4,6 +4,7 @@ import "./EquipeCard.css";
 function EquipeCard(props) {
   return (
     <div className="Card">
+      <img src={props.image} class="imagem" />
 
       <div className="cardConteudo">
         <h1 className="titulo">{props.name}</h1>

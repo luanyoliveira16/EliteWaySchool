@@ -15,7 +15,9 @@
     transition: 1s;
 }
 
-
+.imagem {
+    width: 300px;
+}
 
 .name{
     text-align: center;

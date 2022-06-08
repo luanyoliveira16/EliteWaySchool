@@ -16,7 +16,7 @@
 }
 
 .imagem {
-    width: 400px;
+    width: 300px;
 }
 
 .name{
@@ -26,7 +26,7 @@
     border: solid 1px black;
     border-radius: 5px;
     background-color:#035A9D;
-    width: 400px;
+    width: 300px;
     box-shadow: 4px 4px 16px 10px rgba(136, 136, 136, 0.559);
     margin: 7.5px 15px;
     padding-bottom: 12px;

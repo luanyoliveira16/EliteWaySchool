@@ -58,3 +58,11 @@
     align-items: center;
     justify-content: center;
  }
+
+
+ @media only screen and (max-width: 900px) {
+    .formCadastro{
+        width: 300px;
+    }
+  }
+    

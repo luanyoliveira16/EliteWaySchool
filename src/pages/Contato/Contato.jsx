@@ -3,7 +3,7 @@ import "./Contato.css";
 import hadoniasImage from "../../assets/image/Hadonias.jpg";
 import caiqueImage from "../../assets/image/92965546.jpg";
 import hadassaImage from "../../assets/image/hadassa.jpg";
-import luanyImage from "../../assets/image/luany.jpg";
+import luanyImage from "../../assets/image/Luany.jpg";
 import EquipeCard from "../../components/EquipeCard/EquipeCard";
 
 function Contato() {

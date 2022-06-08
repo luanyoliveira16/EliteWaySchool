@@ -50,15 +50,15 @@ npm run dev
 
 > ## Elite Way School 
 
-<img src='src\assets\image\...' width=900>
+<img src='src\assets\image\video.mp4' width=900>
 
 > ## Página Docentes
 
-<img src='src\assets\image\...' width=900>
+<img src='src\assets\image\pagina-docentes.png' width=900>
 
 > ## Cadastro Docentes
 
-<img src='src\assets\image\cadastro.png' width=900>
+<img src='src\assets\image\pagina-cadastro.png' width=900>
 
 
 

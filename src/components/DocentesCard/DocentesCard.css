@@ -1,0 +1,26 @@
+.docente-card{
+    background-color: rgba(116, 103, 231, 0.279);
+    width: 300px;
+    height: 280px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 3px 25px 0px rgba(0, 0, 0, 0.703);
+    border: solid 0.1px rgba(0, 0, 255, 0.258);
+}
+.docente-card:hover{
+    background-color: rgba(71, 121, 230, 0.555);
+    cursor: pointer;
+}
+
+.docente-card div img {
+    border-radius: 50%;
+    margin-top: 6px;
+}
+
+.conteudoDiv{
+    margin-top: 15px;
+}

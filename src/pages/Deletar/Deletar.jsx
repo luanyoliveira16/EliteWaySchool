@@ -35,7 +35,7 @@ function Deletar() {
 
       <Button
         text="Deletar"
-        className="btn-docente"
+        className="btn-delete"
         onClick={(event) => {
           event.preventDefault();
           deletaDocente(cpf);
@@ -43,7 +43,7 @@ function Deletar() {
       />
     </form>
 
-    <div>
+    <div className="mensagemDb">
       <h2>{message}</h2>
     </div>
     </div>

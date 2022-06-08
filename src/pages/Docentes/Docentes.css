@@ -1,5 +1,31 @@
 .busca{
-  background-color: #035a9da0;
+  background-color: #005ea200;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+
+.titleDocentes{
+font-size: 35px;
+}
+.btn-docente{
+  background-color: #890d0d; 
+    border-radius: 20px;
+    width: 490px;
+    height: 32px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+    border: none;
+}
+
+.btn-docente:hover{
+  background-color: #D40404; 
+  cursor: pointer;
 }
 
 .lista-docentes{
@@ -31,6 +57,7 @@
   justify-content: center;
   height: auto;
   margin-top: 5%;
+  margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 1300px) {

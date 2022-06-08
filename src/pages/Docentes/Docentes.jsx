@@ -44,7 +44,7 @@ function Docentes() {
   return (
     <div className="docentes">
       <div className="busca">
-        <h1>pagina docentes</h1>
+        <h1>PAGINA DOCENTES</h1>
         <Imput
           textLabel = "Digite o cpf do docente que deseja buscar"
           type="text"
@@ -65,7 +65,7 @@ function Docentes() {
       </div>
 
       <div className="lista-docentes">
-        <h2>Nossos docentes</h2>
+        <h2 className="titleDocente">Nossos docentes</h2>
         <div className="cards">
           {docentes.map((docente) => {
             return <DocentesCard key={docente.nome} docente={docente} />;

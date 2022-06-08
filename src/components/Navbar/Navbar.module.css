@@ -2,21 +2,39 @@
           display: flex;
           justify-content: space-around;
           align-items: center;
+          font-family: Montserrat;
     }
     
 .menu{
             display: flex;
+            
               
              
     }
+
+ a{
+     text-decoration: none;
+     color: #E80000;
+ }   
     
+a:hover{
+    color: #005DA1;
+}
+
+a:active{
+        transform: scale(0.98);
+        box-shadow: 3px 2px 22px 1px rgba(210, 29, 16, 0.913);
+}
+
 .opçoes{
               margin-left: 20px;
-              font-family: Roboto, "Helvetica Neue";
+              font-family: Montserrat;
               font-weight: bold;
               font-size: 20px;
               color: #ffffff;
               border-radius: 20px;
+              text-decoration: none;
+             
     }
 
 @media (max-width: 1025px){

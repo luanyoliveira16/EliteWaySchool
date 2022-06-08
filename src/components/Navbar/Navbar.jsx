@@ -1,6 +1,6 @@
 import {NavLink} from "react-router-dom";
 import styles from "./Navbar.module.css";
-import Logo from "../../assets/brasao.svg"
+import Logo from "../../assets/logo.png"
 
 const Navbar = () => {
   return <nav className={styles.navbar}>

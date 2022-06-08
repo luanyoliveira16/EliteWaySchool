@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Home from "./pages/Home/Home"
 import Docentes from "./pages/Docentes/Docentes"
-import Cadastro from "./pages/Cadastro/Cadastro"
+import Cadastro from "./pages/cadastro/Cadastro"
 import Atualizar from "./pages/Atualizar/Atualizar"
 import Deletar from "./pages/Deletar/Deletar"
 import CarregamentoPag from './components/CarregamentoPag/CarregamentoPag'

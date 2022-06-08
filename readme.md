@@ -50,7 +50,7 @@ npm run dev
 
 > ## Elite Way School 
 
-<img src='src\assets\image\ews.gif' width=900>
+<img src='src\assets\image\home.png' width=900>
 
 > ## Página Docentes
 

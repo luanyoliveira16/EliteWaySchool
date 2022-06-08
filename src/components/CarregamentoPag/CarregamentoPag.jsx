@@ -24,8 +24,8 @@ function CarregamentoPag(props) {
     <>
 			{isLoading ? (
 				<div className='loading'>
-          <Loader />
-          <FadeLoader isLoading={isLoading} css={override} />
+          			<Loader />
+          			<FadeLoader isLoading={isLoading} css={override} />
 
 				</div>
 			) : (

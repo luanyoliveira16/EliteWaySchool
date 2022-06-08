@@ -58,3 +58,15 @@
     align-items: center;
     justify-content: center;
  }
+
+  
+@media only screen and (max-width: 800px){
+    .formCadastro {
+        width: 300px;
+    }
+    .buttonForm{
+        width: 250px;
+    }
+
+  }
+    

@@ -26,17 +26,17 @@
  /* ----------- form --------- */
 
  .formCadastro {
-     width: 400px;
-     height: auto;
-     border-radius: 10px;
-     margin: 0 auto;
-     display: flex;
-     flex-direction: column;
-    justify-content: center;
-    margin-bottom: 50px;
-    background-image: radial-gradient(circle, #cce7fd, #9ec3e5, #719fcd, #457cb5, #035a9d);
-    box-shadow: 7px 7px 12px 1px rgba(0, 0, 0, 0.55);
- }
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   margin-bottom: 50px;
+   background-image: radial-gradient(circle, #cce7fd, #9ec3e5, #719fcd, #457cb5, #035a9d);
+   box-shadow: 7px 7px 12px 1px rgba(0, 0, 0, 0.55);
+}
 
 
 
@@ -60,9 +60,14 @@
  }
 
 
- @media only screen and (max-width: 900px) {
-    .formCadastro{
+ 
+ @media only screen and (max-width: 800px){
+    .formCadastro {
         width: 300px;
     }
+    .buttonForm{
+        width: 250px;
+    }
   }
+    
     

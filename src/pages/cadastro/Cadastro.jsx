@@ -15,7 +15,7 @@ function Cadastro() {
   const [message, setMessage] = useState("");
 
   const cadastraDocente = () => {
-    const url = `http://api--escola.herokuapp.com/docentes`;
+    const url = `https://api--escola.herokuapp.com/docentes`;
     axios.
       post(url, {
         cpf: cpf,

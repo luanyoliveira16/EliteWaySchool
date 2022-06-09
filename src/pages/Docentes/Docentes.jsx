@@ -14,7 +14,7 @@ function Docentes() {
   const [cpf, setCpf] = useState("");
 
   const getDocentes = async () => {
-    const url = `http://api--escola.herokuapp.com/docentes`;
+    const url = `https://api--escola.herokuapp.com/docentes`;
     await axios
       .get(url)
       .then((res) => setDocentes(res.data))
@@ -22,7 +22,7 @@ function Docentes() {
   };
 
   const getDocentePorCpf = async (cpf) => {
-    const url = `http://api--escola.herokuapp.com/docentes/${cpf}`;
+    const url = `https://api--escola.herokuapp.com/docentes/${cpf}`;
     await axios
       .get(url)
       .then((res) => {

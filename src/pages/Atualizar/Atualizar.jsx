@@ -15,7 +15,7 @@ function Atualizar() {
   const [message, setMessage] = useState("");
 
   const atualizaDocente = (cpf) => {
-    const url = `http://api--escola.herokuapp.com/docentes/${cpf}`;
+    const url = `https://api--escola.herokuapp.com/docentes/${cpf}`;
     axios.
       put(url, {
         cpf: cpf,

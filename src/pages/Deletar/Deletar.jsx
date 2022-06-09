@@ -5,7 +5,7 @@ import {Imput} from "../../components/imput/Imput"
 import "./Deletar.css"
 
 function Deletar() {
-  const url = `http://api--escola.herokuapp.com/docentes`;
+  const url = `https://api--escola.herokuapp.com/docentes`;
   const [cpf, setCpf] = useState("");
   const [message, setMessage] = useState("");
 

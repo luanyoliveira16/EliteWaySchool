@@ -42,7 +42,7 @@ function Docentes() {
   }, []);
 
   return (
-    <div className="docentes">
+    <main className="docentes">
       <div className="busca">
         <h1>PAGINA DOCENTES</h1>
         <Imput
@@ -84,7 +84,7 @@ function Docentes() {
           <IoMdTrash size={50} color={"red"} />
         </Link>
       </div>
-    </div>
+    </main>
   );
 }
 

@@ -20,7 +20,7 @@ function Deletar() {
   };
 
   return (
-    <div>
+    <main>
     <form className="form-delete">
 
       <Imput
@@ -46,7 +46,7 @@ function Deletar() {
     <div className="mensagemDb">
       <h2>{message}</h2>
     </div>
-    </div>
+    </main>
   );
 }
 
